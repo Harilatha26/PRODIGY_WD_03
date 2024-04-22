@@ -1,0 +1,117 @@
+h1 { 
+	color: orangered; 
+	margin-bottom: 50px;
+	font-size: 70px;
+	background-color: bisque;
+} 
+p { 
+	margin-bottom: 60px;
+	font-size: 50px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 100px; 
+	height: 100px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 74px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 7px solid rgb(21, 16, 157); 
+	border-right: 7px solid rgb(21, 16, 157); 
+} 
+
+#b2 { 
+	border-bottom: 7px solid rgb(21, 16, 157); 
+	border-right: 7px solid rgb(21, 16, 157); 
+	border-left: 7px solid rgb(21, 16, 157); 
+} 
+
+#b3 { 
+	border-bottom: 7px solid rgb(21, 16, 157); 
+	border-left: 7px solid rgb(21, 16, 157); 
+} 
+
+#b4 { 
+	border-top: 7px solid rgb(21, 16, 157); 
+	border-bottom: 7px solid rgb(21, 16, 157); 
+	border-right: 7px solid rgb(21, 16, 157); 
+} 
+	
+#b5 { 
+	border: 7px solid rgb(21, 16, 157); 
+} 
+
+#b6 { 
+	border-top: 7px solid rgb(21, 16, 157); 
+	border-bottom: 7px solid rgb(21, 16, 157); 
+	border-left: 7px solid rgb(21, 16, 157); 
+} 
+
+#b7 { 
+	border-top: 7px solid rgb(21, 16, 157); 
+	border-right: 7px solid rgb(21, 16, 157); 
+} 
+
+#b8 { 
+	border-top: 7px solid rgb(21, 16, 157); 
+	border-right: 7px solid rgb(21, 16, 157); 
+	border-left: 7px solid rgb(21, 16, 157); 
+} 
+
+#b9 { 
+	border-top: 7px solid rgb(21, 16, 157); 
+	border-left: 7px solid rgb(21, 16, 157); 
+} 
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 150px; 
+	height: 60px; 
+	border: 5px solid rgb(51, 191, 0); 
+	margin-left: auto; 
+	border-radius: 15px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: rgb(133, 22, 120); 
+	color: rgb(51, 191, 0); 
+	font-size: 40px; 
+	cursor: pointer; 
+} 
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: rgb(51, 191, 0); 
+	font-size: 50px; 
+} 
+
+/* Main Container */
+#main { 
+	text-align: center; 
+} 
+
+/* Game Instruction Text */
+#ins { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif; 
+	color: rgb(51, 191, 0); 
+	font-size: 40px;
+}
